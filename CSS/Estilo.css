@@ -1,0 +1,123 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgb(3, 154, 165), rgb(4, 163, 110))
+}
+
+/*Configuração do background*/
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background: rgb(0, 123, 145);
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    display: flex;
+}
+
+/*Configuração do rodapé*/
+
+.ID {
+    margin-left: 67%;
+    /*ID da empresa lado inferior direito*/
+    font-family: serif;
+}
+
+.dream {
+    margin-left: 2%;
+    /*E-mail lado inferior esquerdo*/
+    font-family: serif;
+}
+
+.Conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Create {
+    color: rgb(3, 154, 165);
+    /*Comfiguralçao do titulo da div*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+}
+
+.Create1 {
+    /*Comfigursção da div que compoe o cadastro*/
+    background: white;
+    width: 45%;
+    height: 80%;
+    margin-left: 30%;
+    padding: 10px;
+}
+
+.Name, .e-mail, .Password {
+    /* Coloquei aqui em cima os três, porque posso replicar a cnfiguração para eles, caso eu queria algo diferente, adiciono como fiz abaixo para o width*/
+    width: 430px;
+    height: 30px;
+    background-color: gainsboro;
+    border: gainsboro;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+}
+
+.Busca {
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 430px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 6px;
+}
+
+.ImageUser {
+    width: 20px;
+    height: 20px;
+}
+
+.E-mail {
+    width: 20px;
+    height: 20px;
+}
+
+.e-mail {
+    margin-left: 5px;
+}
+
+.Chave {
+    width: 20px;
+    height: 20px;
+}
+
+.Password {
+    margin-left: 5px;
+}
+
+.Singin {
+    background: linear-gradient(rgb(3, 154, 165), rgb(4, 163, 110));
+    border-radius: 20px;
+    color: white;
+    border: 2px solid rgb(3, 154, 165);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding: 10px 70px;
+}
+
+.Regístrate {
+    background-color: transparent;
+    border-radius: 20px;
+    color: rgb(154, 156, 158);
+    border: 2px solid rgb(154, 156, 158);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding: 10px 50px;
+    margin-left: 20px;
+}
